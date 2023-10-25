@@ -1,0 +1,49 @@
+.skillupdatemodel {
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.skillupdatemodel__wrapper {
+  padding: 1.25rem;
+  border-radius: 0.375rem;
+  background-color: #ffffff;
+  width: 40%;
+}
+.skillupdatemodel__title {
+  display: flex;
+  padding: 0.75rem;
+  justify-content: space-between;
+  border-bottom-width: 1px;
+}
+.skillupdatemodel__maintitle {
+  justify-content: space-between;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+.skillupdatemodel__btns {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.cancle {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  border-radius: 0.375rem;
+  border-width: 1px;
+  font-weight: 700;
+  background-color: #ffffff;
+  color: var(--primary-dark);
+  border: 1px solid var(--primary-dark);
+  cursor: pointer;
+}

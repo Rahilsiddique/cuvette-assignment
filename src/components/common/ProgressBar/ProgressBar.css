@@ -1,0 +1,30 @@
+.porgressbar__ {
+  padding-top: 1.5rem;
+  padding-bottom: 0.75rem;
+}
+.progressbar__full {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.progressbar__container {
+  width: 80%;
+  height: 9px;
+  background-color: #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.progressbar {
+  height: 100%;
+  background-color: #007bff;
+  transition: width 0.3s ease-in-out;
+  border-radius: 50px;
+}
+
+.subject__progress {
+  display: flex;
+  color: var(--secondary-text);
+  padding-bottom: 1rem;
+}

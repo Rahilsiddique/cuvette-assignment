@@ -1,0 +1,17 @@
+.navbar {
+  display: flex;
+  padding: 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--border-color);
+}
+.navbar__profile {
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+  border: 2px solid var(--border-color);
+}
+.navbar__profilename {
+  padding-right: 0.25rem;
+  font-weight: 600;
+}

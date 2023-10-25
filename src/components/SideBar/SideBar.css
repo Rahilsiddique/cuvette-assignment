@@ -1,0 +1,31 @@
+.sidebar {
+  padding-right: 0.625rem;
+  padding-top: 2.5rem;
+  border-right: 1px solid var(--border-color);
+  height: 100%;
+}
+
+.sidebar__option {
+  display: flex;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  gap: 1rem;
+  align-items: center;
+  border-top-right-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+}
+
+.sidebar__option:hover {
+  background-color: #f7f8fa;
+}
+
+.font__semibold {
+  font-weight: 600;
+  color: #566474;
+}
+
+.selected {
+  background-color: #f7f8fa;
+  color: var(--primary);
+}

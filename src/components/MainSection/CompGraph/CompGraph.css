@@ -1,0 +1,27 @@
+.compgraph {
+  display: flex;
+  padding: 1.25rem;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  border: 1px solid var(--border-color);
+}
+.compgraph__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.compgraph__fontbold {
+  padding-bottom: 1.25rem;
+  font-weight: 700;
+}
+.compgrph__semibold {
+  font-weight: 600;
+  color: var(--secondary-text);
+}
+.compgraph__block {
+  display: block;
+}
+.compgraph__text {
+  line-height: 1.5rem;
+  color: var(--secondary-text);
+}

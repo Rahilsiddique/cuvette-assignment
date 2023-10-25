@@ -1,0 +1,10 @@
+.syllabuswiseanalysis {
+  padding: 2rem;
+  margin-top: 5rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--border-color);
+}
+.syllabuswiseanalysis__fontbold {
+  margin-bottom: 1.25rem;
+  font-weight: 700;
+}

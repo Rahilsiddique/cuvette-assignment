@@ -1,0 +1,32 @@
+.skillupdate {
+  display: flex;
+  padding: 1rem;
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+  margin-top: 1.75rem;
+  justify-content: space-between;
+  border-radius: 0.375rem;
+  border: 1px solid var(--border-color);
+}
+
+.skillupdate__first {
+  display: flex;
+}
+
+.skillupdate__first__child {
+  margin-left: 1.75rem;
+}
+
+.skillupdate__font__block {
+  display: block;
+  font-weight: 700;
+  line-height: 2rem;
+}
+
+.skillupdate__info {
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: var(--secondary-text);
+}
