@@ -15,7 +15,7 @@ const LineComp = () => {
         bottom: 5
       }}
     >
-      <XAxis dataKey="percentile" />
+      <XAxis dataKey="percentile" type="number" />
       <Tooltip />
       <Line
         type="monotone"
@@ -23,7 +23,10 @@ const LineComp = () => {
         stroke="#8884d8"
         activeDot={{ r: 8 }}
       />
-      <ReferenceLine x={skillStats?.percentile} label="your percentile" />
+      <ReferenceLine
+        x={Number(skillStats.percentile)}
+        label="your percentile"
+      />
     </LineChart>
   );
 };

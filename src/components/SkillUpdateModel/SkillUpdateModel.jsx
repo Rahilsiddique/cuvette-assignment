@@ -38,7 +38,7 @@ const SkillUpdateModel = ({ visible }) => {
     {
       id: 3,
       name: "score",
-      errorMessage: "required | rank 0-15",
+      errorMessage: "required | score 0-15",
       placeholder: "score",
       label: "Current Score (out of 15)",
       required: true,
@@ -48,6 +48,13 @@ const SkillUpdateModel = ({ visible }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (
+      localChange.score === 0 ||
+      localChange.percentile === 0 ||
+      localChange.rank === 0
+    ) {
+      alert("please enter all values correctly");
+    }
     setSkillStats(localChange);
 
     setLineGraph((p) => [
@@ -61,7 +68,6 @@ const SkillUpdateModel = ({ visible }) => {
     setShowSkillModel((prev) => !prev);
   };
   const handleChange = (e) => {
-    console.log(e.target.value);
     setLocalChange((prev) => ({
       ...prev,
       [e.target.name]: e.target.value

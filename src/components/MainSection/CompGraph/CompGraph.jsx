@@ -9,7 +9,7 @@ const CompGraph = () => {
     <div className="compgraph">
       <div className="compgraph__content">
         <div>
-          <div className="compgraph__fontbold">Comparsion Graph</div>
+          <div className="compgraph__fontbold">Comparison Graph</div>
           <div className="compgraph__text">
             <span className="compgrph__semibold">
               You scored {skillStats.percentile}% percentile
